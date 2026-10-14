@@ -1,0 +1,35 @@
+### 
+GET http://127.0.0.1:8000/Question/
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/Question/
+Content-Type: application/json
+
+{
+    "title" : "java program to find the factorial ",
+    "language" : "java",
+    "difficulty_level" : "medium",
+    "notes" : "sample question",
+    "topic" : "loops",
+    "sample_output" : "120",
+    "is_active" : true
+}
+
+### 
+GET http://127.0.0.1:8000/Question/2/
+Accept: application/json
+
+###
+PuT http://127.0.0.1:8000/Question/1/
+Content-Type: application/json
+
+{
+    "title" : "java program to find the Armstrong ",
+    "language" : "java",
+    "difficulty_level" : "medium",
+    "notes" : "sample question",
+    "topic" : "loops",
+    "sample_output" : "it is armstrong",
+    "is_active" : true
+}
